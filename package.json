@@ -1,9 +1,14 @@
 {
   "name": "invert-colors",
   "main": "./lib/main.js",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Invert colors of workspace",
-  "keywords": ["invert", "colors", "image", "dark-mode"],
+  "keywords": [
+    "invert",
+    "colors",
+    "image",
+    "dark-mode"
+  ],
   "repository": "https://github.com/asiloisad/pulsar-invert-colors",
   "license": "MIT",
   "engines": {
