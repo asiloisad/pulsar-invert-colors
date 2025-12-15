@@ -1,0 +1,17 @@
+@import "ui-variables";
+
+.invert-colors-img {
+  img, canvas {
+    filter: invert(100%) !important;
+  }
+}
+
+// Status bar buttons
+.status-bar .invert-colors-status {
+  .icon::before {
+    margin-right: 0;
+  }
+  .icon.active {
+    color: @text-color-warning;
+  }
+}

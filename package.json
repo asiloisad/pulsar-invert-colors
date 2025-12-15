@@ -1,0 +1,42 @@
+{
+  "name": "invert-colors",
+  "main": "./lib/main.js",
+  "version": "0.1.0",
+  "description": "Invert colors of workspace",
+  "keywords": ["invert", "colors", "image", "dark-mode"],
+  "repository": "https://github.com/asiloisad/pulsar-invert-colors",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "configSchema": {
+    "img": {
+      "title": "All images state",
+      "description": "Invert Colors of <img> elements",
+      "type": "boolean",
+      "default": true,
+      "order": 1
+    },
+    "pdf": {
+      "title": "PDF-viewer state",
+      "description": "Invert Colors of pdf-viewer",
+      "type": "boolean",
+      "default": true,
+      "order": 2
+    },
+    "statusBar": {
+      "title": "Status bar buttons",
+      "description": "Show toggle buttons in the status bar",
+      "type": "boolean",
+      "default": true,
+      "order": 3
+    }
+  },
+  "consumedServices": {
+    "status-bar": {
+      "versions": {
+        "^1.0.0": "consumeStatusBar"
+      }
+    }
+  }
+}
