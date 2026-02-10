@@ -1,0 +1,15 @@
+'menu': [
+  {
+    label: 'Packages'
+    submenu: [
+      {
+        label: 'Invert Colors'
+        submenu: [
+          { label: 'Toggle', command: 'invert-colors:toggle' }
+          { label: 'Invert Images', command: 'invert-colors:img' }
+          { label: 'Invert PDF', command: 'invert-colors:pdf' }
+        ]
+      }
+    ]
+  }
+]
