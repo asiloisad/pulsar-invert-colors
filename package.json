@@ -1,7 +1,7 @@
 {
   "name": "invert-colors",
   "main": "./lib/main.js",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "Invert colors for images and PDF viewer in Pulsar",
   "keywords": [
     "invert",
