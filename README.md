@@ -1,12 +1,14 @@
 # invert-colors
 
-Invert colors for images and PDF viewer in Pulsar. Useful for dark themes or reducing eye strain.
+Invert colors for images, editor, and PDF viewer in Pulsar. Useful for dark themes or reducing eye strain.
 
 ## Features
 
+- **Workspace inversion**: Invert colors of the entire workspace.
+- **Editor inversion**: Invert colors of text editors only.
 - **Image inversion**: Invert colors of `<img>` and `<canvas>` elements.
 - **PDF support**: Invert pdf-viewer via `pdf-viewer.invertMode` config.
-- **Quick toggle**: Status bar buttons for fast switching.
+- **Status bar icons**: Optional per-mode toggle buttons in the status bar.
 
 ## Installation
 
@@ -16,9 +18,21 @@ To install `invert-colors` search for [invert-colors](https://web.pulsar-edit.de
 
 Commands available in `atom-workspace`:
 
-- `invert-colors:toggle`: toggle all inversion modes,
-- `invert-colors:img`: toggle image inversion,
-- `invert-colors:pdf`: toggle PDF inversion.
+- `invert-colors:workspace`: toggle workspace inversion,
+- `invert-colors:editor`: toggle editor inversion,
+- `invert-colors:image`: toggle image inversion,
+- `invert-colors:pdfviewer`: toggle PDF viewer inversion.
+
+## Configuration
+
+All inversions are off by default. Each mode has two independent settings: `<mode>State` and `<mode>StatusIcon`. For example:
+
+- `workspaceState` / `workspaceStatusIcon`
+- `editorState` / `editorStatusIcon`
+- `imageState` / `imageStatusIcon`
+- `pdfviewerState` / `pdfviewerStatusIcon`
+
+Note: enabling multiple overlapping modes (e.g. workspace and editor) will double-invert the overlapping elements, canceling out to normal colors.
 
 ## Contributing
 

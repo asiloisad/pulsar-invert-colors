@@ -5,9 +5,10 @@
       {
         label: 'Invert Colors'
         submenu: [
-          { label: 'Toggle', command: 'invert-colors:toggle' }
-          { label: 'Invert Images', command: 'invert-colors:img' }
-          { label: 'Invert PDF', command: 'invert-colors:pdf' }
+          { label: 'Invert Workspace', command: 'invert-colors:workspace' }
+          { label: 'Invert Editor', command: 'invert-colors:editor' }
+          { label: 'Invert Images', command: 'invert-colors:image' }
+          { label: 'Invert PDF Viewer', command: 'invert-colors:pdfviewer' }
         ]
       }
     ]

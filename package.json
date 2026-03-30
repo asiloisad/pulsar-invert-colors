@@ -15,26 +15,61 @@
     "atom": ">=1.0.0 <2.0.0"
   },
   "configSchema": {
-    "img": {
-      "title": "All images state",
-      "description": "Invert Colors of <img> elements",
+    "workspaceState": {
+      "title": "Workspace state",
+      "description": "Invert Colors of whole workspace",
       "type": "boolean",
-      "default": true,
+      "default": false,
       "order": 1
     },
-    "pdf": {
-      "title": "PDF-viewer state",
-      "description": "Invert Colors of pdf-viewer",
+    "workspaceStatusIcon": {
+      "title": "Workspace status icon",
+      "description": "Show toggle button in the status bar",
       "type": "boolean",
-      "default": true,
+      "default": false,
       "order": 2
     },
-    "statusBar": {
-      "title": "Status bar buttons",
-      "description": "Show toggle buttons in the status bar",
+    "editorState": {
+      "title": "Editor state",
+      "description": "Invert Colors of editor",
       "type": "boolean",
-      "default": true,
+      "default": false,
       "order": 3
+    },
+    "editorStatusIcon": {
+      "title": "Editor status icon",
+      "description": "Show toggle button in the status bar",
+      "type": "boolean",
+      "default": false,
+      "order": 4
+    },
+    "imageState": {
+      "title": "Image state",
+      "description": "Invert Colors of <img> elements",
+      "type": "boolean",
+      "default": false,
+      "order": 5
+    },
+    "imageStatusIcon": {
+      "title": "Image status icon",
+      "description": "Show toggle button in the status bar",
+      "type": "boolean",
+      "default": false,
+      "order": 6
+    },
+    "pdfviewerState": {
+      "title": "PDF viewer state",
+      "description": "Invert Colors of pdf-viewer",
+      "type": "boolean",
+      "default": false,
+      "order": 7
+    },
+    "pdfviewerStatusIcon": {
+      "title": "PDF viewer status icon",
+      "description": "Show toggle button in the status bar",
+      "type": "boolean",
+      "default": false,
+      "order": 8
     }
   },
   "consumedServices": {

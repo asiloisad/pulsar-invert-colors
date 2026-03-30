@@ -1,9 +1,19 @@
 @import "ui-variables";
 
-.invert-colors-img {
+.invert-colors-image {
   img, canvas {
     filter: invert(100%) !important;
   }
+}
+
+.invert-colors-editor {
+  atom-text-editor {
+    filter: invert(100%) !important;
+  }
+}
+
+.invert-colors-workspace {
+  filter: invert(100%) !important;
 }
 
 // Status bar buttons
