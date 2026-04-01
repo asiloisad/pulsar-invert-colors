@@ -1,6 +1,6 @@
 # invert-colors
 
-Invert colors for images, editor, and PDF viewer in Pulsar. Useful for dark themes or reducing eye strain.
+Invert view colors for images, editor, and PDF viewer. Useful for dark themes or reducing eye strain.
 
 ## Features
 
