@@ -23,17 +23,6 @@ Commands available in `atom-workspace`:
 - `invert-colors:image`: toggle image inversion,
 - `invert-colors:pdfviewer`: toggle PDF viewer inversion.
 
-## Configuration
-
-All inversions are off by default. Each mode has two independent settings: `<mode>State` and `<mode>StatusIcon`. For example:
-
-- `workspaceState` / `workspaceStatusIcon`
-- `editorState` / `editorStatusIcon`
-- `imageState` / `imageStatusIcon`
-- `pdfviewerState` / `pdfviewerStatusIcon`
-
-Note: enabling multiple overlapping modes (e.g. workspace and editor) will double-invert the overlapping elements, canceling out to normal colors.
-
 ## Contributing
 
 Got ideas to make this package better, found a bug, or want to help add new features? Just drop your thoughts on GitHub. Any feedback is welcome!
