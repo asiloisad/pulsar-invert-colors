@@ -1,7 +1,7 @@
 {
   "name": "invert-colors",
   "main": "./lib/main.js",
-  "version": "0.4.0",
+  "version": "0.5.0",
   "description": "Invert view colors for images, editor, and PDF viewer",
   "keywords": [
     "invert",
