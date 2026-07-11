@@ -1,5 +1,24 @@
 @import "ui-variables";
 
+.invert-colors-transitions {
+  transition: filter 200ms ease-in-out;
+
+  atom-text-editor,
+  img,
+  canvas {
+    transition: filter 200ms ease-in-out;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .invert-colors-transitions,
+  .invert-colors-transitions atom-text-editor,
+  .invert-colors-transitions img,
+  .invert-colors-transitions canvas {
+    transition: none;
+  }
+}
+
 .invert-colors-image {
   img,
   canvas {

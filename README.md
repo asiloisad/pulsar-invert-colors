@@ -7,7 +7,8 @@ Invert view colors for images, editor, and PDF viewer. Useful for dark themes or
 - **Workspace inversion**: Invert colors of the entire workspace.
 - **Editor inversion**: Invert colors of text editors only.
 - **Image inversion**: Invert colors of `<img>` and `<canvas>` elements.
-- **PDF support**: Invert pdf-viewer via `pdf-viewer.invertMode` config.
+- **PDF support**: Invert open and newly created pdf-viewer instances without changing pdf-viewer's global configuration.
+- **Animated transitions**: Smoothly transition into and out of inverted modes while respecting reduced-motion preferences.
 - **Status bar icons**: Optional per-mode toggle buttons in the status bar.
 
 ## Installation
