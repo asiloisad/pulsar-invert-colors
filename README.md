@@ -13,7 +13,7 @@ Invert view colors for images, editor, and PDF viewer. Useful for dark themes or
 
 ## Installation
 
-To install `invert-colors` search for [invert-colors](https://web.pulsar-edit.dev/packages/invert-colors) in the Install pane of the Pulsar settings or run `ppm install invert-colors`. Alternatively, you can run `ppm install asiloisad/pulsar-invert-colors` to install a package directly from the GitHub repository.
+To install `invert-colors` search for [invert-colors](https://web.pulsar-edit.dev/packages/invert-colors) in the Install pane of the Pulsar settings or run `ppm install invert-colors`. Alternatively, you can run `ppm install asiloisad-pulsar/invert-colors` to install a package directly from the GitHub repository.
 
 ## Commands
 
