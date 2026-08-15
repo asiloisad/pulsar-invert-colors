@@ -9,7 +9,7 @@
     "image",
     "dark-mode"
   ],
-  "repository": "https://github.com/asiloisad/pulsar-invert-colors",
+  "repository": "https://github.com/asiloisad-pulsar/invert-colors",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
